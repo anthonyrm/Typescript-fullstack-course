@@ -1,0 +1,23 @@
+# Clase 1
+#node wrapea nuestro codigo en esto:
+#sistema de modulos (common js)
+
+function(module, exports, require, __filename, __directory){
+}
+
+# El require busca en el sistema donde esta instalado node, 
+# luego en el node_modules del proyecto
+
+# Instalar typescript global
+# En linux usar sudo
+npm install typescript -g
+
+#tsd cambió a typings para definir los tipos de javascript
+# Ahora se puede instalar los tipos con npm
+npm install @types/express --save-dev
+
+# Cuando se hace npm install se instala las dependencies y dev
+# tambien si no detecta que estamos en prd
+
+# Para transpilar typescript (no es necesario la extensión)
+tsc file_name
