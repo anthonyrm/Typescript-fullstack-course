@@ -1,0 +1,15 @@
+#Interfaces
+Las interfaces no se trasnpilan solo ayudan al typescript 
+a restrinjirte y mostrarte los errores de tipo si existieran
+
+
+# cuando se ejecuta tsc sin más se busca el archivo tsconfig.json y lee la configuración
+
+# La opcion "compilerOptions" de tsconfig se utiliza para transpilar el typescript
+
+# Para debug
+program
+sourceMaps
+outDir
+
+#Para los set and gets crear un variable privada nueva y no usar la de la interface xq se raya
